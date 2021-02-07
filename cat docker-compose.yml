@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+    nodejs:
+      build: .
+      container_name: mesafono-digital
+      restart: always
+      ports:
+      - "8100:8100"
